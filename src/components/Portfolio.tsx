@@ -5,13 +5,12 @@ import { X, ChevronLeft, ChevronRight, MessageSquare, ArrowRight, Sun, Layers } 
 export default function Portfolio() {
   const [activeImageIndex, setActiveImageIndex] = useState<number | null>(null);
 
-  // Premium, high-resolution action photos from Teemo-Sun at energy summits
+  // Original, authentic portfolio items provided directly by Teemo-Sun
   const images = [
-    { url: "/portfolio_team.png", aspect: "aspect-[4/3]", label: "Exhibition Stand Coverage" },
-    { url: "/portfolio_interview.png", aspect: "aspect-[4/3]", label: "National Media Interview Broadcast" },
-    { url: "/portfolio_exhibit.png", aspect: "aspect-[4/3]", label: "Renewable Energy Exhibition Floor" },
-    { url: "/portfolio_counter.png", aspect: "aspect-[4/3]", label: "Customer Service Consultation Desk" },
-    { url: "/portfolio_businessday_real.png", aspect: "aspect-[4/3]", label: "BusinessDay Energy Conference Board" }
+    { url: "/portfolio_nnepie_expo.png", label: "NNEPIE Expo 2026 Showcase Stand" },
+    { url: "/portfolio_tvc_interview.png", label: "TVC News Corporate Coverage" },
+    { url: "/portfolio_businessday.png", label: "BusinessDay Energy Conference Board" },
+    { url: "/portfolio_consultation.png", label: "Active Simulator Load Diagnostic Desk" }
   ];
 
   const handleNext = (e: React.MouseEvent) => {
@@ -104,25 +103,26 @@ export default function Portfolio() {
               key={idx}
               variants={itemVariants}
               whileHover={{ 
-                scale: 1.025, 
-                boxShadow: "0 0 40px -5px rgba(16, 185, 129, 0.25)" 
+                scale: 1.015, 
+                boxShadow: "0 0 30px -5px rgba(16, 185, 129, 0.2)" 
               }}
               whileTap={{ scale: 0.985 }}
               onClick={() => setActiveImageIndex(idx)}
-              className="group cursor-pointer overflow-hidden rounded-2xl md:rounded-3xl border border-white/10 bg-black relative flex flex-col justify-center items-center overflow-hidden aspect-[4/3] shadow-lg transition-all duration-300 select-none"
+              className="group cursor-pointer overflow-hidden rounded-2xl md:rounded-3xl border border-white/10 bg-[#020d09] relative flex flex-col justify-center items-center p-3 h-[420px] sm:h-[500px] md:h-[580px] shadow-lg transition-all duration-300 select-none"
             >
-              {/* Premium overlay lines decoration inside cards */}
-              <div className="absolute inset-0 bg-transparent group-hover:bg-emerald-950/20 z-10 transition-colors duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/30 pointer-events-none" />
               
-              <img 
-                src={img.url} 
-                alt={img.label} 
-                className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                referrerPolicy="no-referrer"
-              />
+              <div className="w-full h-full flex items-center justify-center relative overflow-hidden bg-black/60 rounded-xl md:rounded-2xl p-2 border border-white/5">
+                <img 
+                  src={img.url} 
+                  alt={img.label} 
+                  className="w-full h-full object-contain transition-transform duration-700 ease-out group-hover:scale-[1.015]"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
 
-              {/* Seamless glass corner detail */}
-              <div className="absolute bottom-4 right-4 bg-black/50 backdrop-blur-md border border-white/10 text-emerald-300 p-2.5 rounded-xl z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              {/* Seamless glass corner detail showing on hover */}
+              <div className="absolute bottom-6 right-6 bg-black/75 backdrop-blur-md border border-white/10 text-emerald-400 p-3 rounded-xl z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center shadow-lg">
                 <ArrowRight className="w-4 h-4" />
               </div>
             </motion.div>
@@ -203,7 +203,7 @@ export default function Portfolio() {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.93 }}
                 transition={{ type: "spring", stiffness: 300, damping: 25 }}
-                className="w-full max-h-[75vh] flex justify-center items-center overflow-hidden px-14"
+                className="w-full max-h-[75vh] flex justify-center items-center overflow-hidden px-4 sm:px-14"
                 onClick={(e) => e.stopPropagation()}
               >
                 <img 
