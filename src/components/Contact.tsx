@@ -58,36 +58,21 @@ export default function Contact() {
               <div>
                 <span className="font-mono text-[10px] uppercase tracking-wider font-extrabold text-[#0c5132]">TEEMO-SUN CHANNELS</span>
                 <h3 className="font-sans font-extrabold text-[#0c5132] text-xl mt-1 tracking-tight">Direct Information</h3>
-              </div>
-
-              <div className="space-y-5">
-                {/* Channel 1: Address */}
+              </div>               <div className="space-y-5">
+                {/* Channel 1: Dispatch */}
                 <div className="flex gap-4 items-start">
                   <div className="w-10 h-10 rounded-lg bg-emerald-50 text-[#0c5132] flex items-center justify-center flex-shrink-0 border border-emerald-150/40">
                     <MapPin className="w-5 h-5" />
                   </div>
                   <div>
-                    <h5 className="font-sans font-bold text-sm text-[#062316] leading-none">Registered Lagos Head Office</h5>
+                    <h5 className="font-sans font-bold text-sm text-[#062316] leading-none">Direct Dispatch Coverage</h5>
                     <p className="text-xs text-gray-500 mt-1 leading-relaxed">
-                      6, Morrison, Oregun, Ikeja, Lagos State, Nigeria.
+                      We dispatch expert engineering teams and state-of-the-art solar supplies to properties across Lagos, Ogun, Abuja, and other regions in Nigeria.
                     </p>
                   </div>
                 </div>
 
-                {/* Channel 2: Training Branch */}
-                <div className="flex gap-4 items-start">
-                  <div className="w-10 h-10 rounded-lg bg-emerald-50 text-[#0c5132] flex items-center justify-center flex-shrink-0 border border-emerald-150/40">
-                    <MapPin className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <h5 className="font-sans font-bold text-sm text-[#062316] leading-none">Abeokuta Training Branch</h5>
-                    <p className="text-xs text-gray-500 mt-1 leading-relaxed">
-                      Teemo-Sun Solar Institute, Abeokuta, Ogun State, Nigeria.
-                    </p>
-                  </div>
-                </div>
-
-                {/* Channel 3: Telephone dials */}
+                {/* Channel 2: Telephone dials */}
                 <div className="flex gap-4 items-start">
                   <div className="w-10 h-10 rounded-lg bg-emerald-50 text-[#0c5132] flex items-center justify-center flex-shrink-0 border border-emerald-150/40">
                     <Phone className="w-5 h-5" />
@@ -256,7 +241,7 @@ export default function Contact() {
                   <Send className="w-4.5 h-4.5 text-amber-300" />
                 </button>
                 <p className="text-[10px] text-gray-400 font-mono mt-3 text-center">
-                  ⚠️ Direct Whatsapp API will open on submit. No data gets saved on external clouds without your permission.
+                  ⚠️ Direct WhatsApp API will open on submit. No data gets saved on external clouds without your permission.
                 </p>
               </div>
 

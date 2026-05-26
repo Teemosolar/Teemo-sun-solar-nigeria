@@ -377,6 +377,70 @@ export const HOUSING_BUDGET_PACKAGES = [
 
 export const PORTFOLIO: PortfolioProject[] = [
   {
+    id: "project-nnepie-2026-expo",
+    title: "National Energy & Power Exhibition Hub (NNEPIE)",
+    capacity: "Major Strategic Industry Exhibitor",
+    location: "Landmark Centre, Victoria Island, Lagos",
+    systemType: "Industrial Tech Showcase & Corporate Hub",
+    completionDate: "September 2026",
+    highlights: [
+      "Unveiled modular heavy-duty smart inverter towers and solid-state storage shelves",
+      "Consulted 500+ commercial builders and real estate developer groups",
+      "Showcased off-grid transport division initiatives for green delivery systems",
+      "Recognized as a leading future-focused solar powerhouse in West Africa"
+    ],
+    imageUrl: "/portfolio_nnepie_expo.png",
+    description: "Teemo-Sun was crowned as a leading key exhibitor at NNEPIE 2026, showcasing high-capacity smart inverters, enterprise lithium battery banks, and robust off-grid micro-grids directly to premium developers."
+  },
+  {
+    id: "project-tvc-news-coverage",
+    title: "TVC News Corporate Exclusive & Prime-time Feature",
+    capacity: "National Media Credibility Feature",
+    location: "Landmark Exhibition Plaza, Victoria Island, Lagos",
+    systemType: "Broadcasting, Public Policy & Thought Leadership",
+    completionDate: "2026",
+    highlights: [
+      "Live broadcast interview covering commercial clean energy grid transitions",
+      "Demonstrated cost-saving ROI profiles for high-capacity corporate solar grids",
+      "Highlight of Teemo-Sun's hands-on training institute certifications",
+      "Established brand position as a premier national engineering advisory"
+    ],
+    imageUrl: "/portfolio_tvc_interview.png",
+    description: "Featured prime-time on live TVC News. Teemo-Sun's engineering lead provided strategic insights into replacing industrial diesel generators with modular hybrid solar systems across Nigeria's manufacturing belts."
+  },
+  {
+    id: "project-businessday-summit",
+    title: "BusinessDay National Energy Conference Delegate Hub",
+    capacity: "Strategic Council Advisory Partner",
+    location: "The Anthonia by Civic Centre, Ikoyi, Lagos",
+    systemType: "Elite Roundtable, Energy Policy & Estate Micro-Grids",
+    completionDate: "2026",
+    highlights: [
+      "Coordinated transition models for off-grid modular smart housing grids",
+      "Advanced load-sharing battery architectures to state commissioners and energy policy planners",
+      "Pioneered discussion panels regarding solar utility safety rules & standards in West Africa",
+      "Formulated micro-utility agreements with leading residential real estate groups"
+    ],
+    imageUrl: "/portfolio_businessday.png",
+    description: "Participated as official key delegation members at the landmark BusinessDay Energy Conference 2026, themed 'Beyond the Grid'. Collaborated on state-level decentralized clean power solutions for residential zones."
+  },
+  {
+    id: "project-on-site-consultations",
+    title: "Enterprise Custom Load Profiling & Active Design Lab",
+    capacity: "Commercial Site Design & Calculations",
+    location: "Teemo-Sun National Exhibition Office, Lagos",
+    systemType: "Interactive Client Diagnostics & Smart Schematics",
+    completionDate: "2026",
+    highlights: [
+      "Active load design using software simulators on dual high-spec enterprise laptops",
+      "Interactive breakdown of smart automatic transfer switches & preventive maintenance",
+      "Step-by-step calculations for industrial cold room and centralized office cooling needs",
+      "Guarantees 100% accurate load tracking before procurement to ensure zero system overload"
+    ],
+    imageUrl: "/portfolio_consultation.png",
+    description: "Our certified site engineers deployed full multi-room visual diagnostics and precise active simulations at the exhibition desk, designing custom-tailored pure sine configurations for massive buildings."
+  },
+  {
     id: "project-abuja-5mwp",
     title: "Mega Solar Power Plant Installation",
     capacity: "5MWp Grid-Tied Solar Power Plant",
@@ -397,7 +461,7 @@ export const PORTFOLIO: PortfolioProject[] = [
     id: "project-lagos-30kw",
     title: "Corporate Solar Power Upgrade",
     capacity: "30KW Industrial Hybrid Solar System",
-    location: "Morrison, Oregun, Ikeja, Lagos State",
+    location: "Ikeja, Lagos State, Nigeria",
     systemType: "Hybrid Solar Installation with Lithium Storage",
     completionDate: "2025",
     highlights: [

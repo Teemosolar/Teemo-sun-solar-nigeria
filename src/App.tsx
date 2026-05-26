@@ -54,7 +54,7 @@ export default function App() {
           
           {/* Brand Info */}
           <div className="space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
-            <Logo variant="light" showMeta={false} align="responsive" />
+            <Logo variant="light" showMeta={true} align="responsive" />
             
             <p className="text-xs text-gray-400 leading-relaxed font-semibold pt-1">
               Fast-growing renewable engineering group dedicated to delivering reliable, affordable, and certified solar energy systems for properties in Nigeria.
@@ -115,24 +115,18 @@ export default function App() {
             </div>
           </div>
 
-          {/* Core Branches */}
-          <div className="space-y-4 flex flex-col items-center md:items-start">
-            <h4 className="font-sans font-bold text-white text-sm uppercase tracking-wider font-semibold">Our Branches</h4>
-            <div className="space-y-3.5 text-xs font-semibold flex flex-col items-center md:items-start">
-              <div className="flex flex-col items-center md:flex-row md:items-start gap-2.5 text-center md:text-left">
-                <MapPin className="w-4 h-4 text-emerald-500 mt-0.5 flex-shrink-0" />
-                <div className="flex flex-col items-center md:items-start">
-                  <p className="text-white leading-none font-bold">Registered Lagos Office</p>
-                  <p className="text-gray-400 mt-1 leading-normal text-[11px]">6, Morrison, Oregun, Ikeja, Lagos.</p>
-                </div>
-              </div>
-              
-              <div className="flex flex-col items-center md:flex-row md:items-start gap-2.5 text-center md:text-left">
-                <MapPin className="w-4 h-4 text-emerald-500 mt-0.5 flex-shrink-0" />
-                <div className="flex flex-col items-center md:items-start">
-                  <p className="text-white leading-none font-bold">Abeokuta Training Branch</p>
-                  <p className="text-gray-400 mt-1 leading-normal text-[11px]">Teemo-Sun Solar Institute, Abeokuta, Ogun.</p>
-                </div>
+          {/* Service Dispatch Coverage */}
+          <div className="space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
+            <h4 className="font-sans font-bold text-white text-sm uppercase tracking-wider">Engineering Dispatch</h4>
+            <div className="space-y-3 text-xs leading-relaxed text-gray-400 font-semibold max-w-xs">
+              <p>
+                We operate as a premium 
+                <span className="text-emerald-400 font-bold"> direct-to-site </span>
+                engineering group, deploying expert teams to conduct professional diagnostic load profiling and custom solar installations at your location.
+              </p>
+              <div className="flex items-center gap-1.5 justify-center md:justify-start text-emerald-400 font-bold font-mono text-[10px]">
+                <MapPin className="w-3.5 h-3.5" />
+                <span>ACTIVE NATIONWIDE DISPATCH</span>
               </div>
             </div>
           </div>

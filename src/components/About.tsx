@@ -66,7 +66,7 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 via-transparent to-transparent"></div>
               
               <div className="absolute bottom-6 left-6 right-6 text-white text-left">
-                <p className="font-mono text-xs text-amber-300 font-bold uppercase tracking-wider mb-1">TEEMO-SUN GROUP HQ</p>
+                <p className="font-mono text-xs text-amber-300 font-bold uppercase tracking-wider mb-1">TEEMO-SUN SOLAR NIGERIA</p>
                 <p className="font-sans font-bold text-base">Integrated Solar Array commissioning, Nigeria.</p>
               </div>
             </div>
@@ -134,7 +134,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto">
           
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="font-mono text-xs uppercase tracking-widest text-[#0c5132] font-bold bg-emerald-50 px-3 py-1 bg-emerald-100 rounded-full">
+            <span className="font-mono text-xs uppercase tracking-widest text-[#0c5132] font-bold bg-emerald-100 px-3 py-1.5 rounded-full">
               GUIDING PRINCIPLES
             </span>
             <h2 className="font-sans font-extrabold text-3xl text-[#0c5132] mt-4 tracking-tight">

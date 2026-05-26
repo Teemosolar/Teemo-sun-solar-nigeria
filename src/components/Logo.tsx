@@ -90,18 +90,15 @@ export default function Logo({ className = "", showMeta = true, variant = "dark"
 
         {/* Brand Text & Metadata columns */}
         <div className={`flex flex-col justify-center ${textAlign}`}>
-          <h1 className={`font-sans font-black text-[10px] sm:text-xs md:text-sm lg:text-base leading-none tracking-tight whitespace-nowrap ${
+          <h1 className={`font-sans font-black text-[11px] sm:text-[13px] md:text-base lg:text-lg leading-none tracking-tight whitespace-nowrap ${
             isDark ? "text-[#156e39]" : "text-white"
           }`}>
             TEEMO-SUN SOLAR NIGERIA
           </h1>
           {showMeta && (
-            <div className="flex flex-col mt-0.5 sm:mt-1 font-sans text-[6.5px] sm:text-[8px] md:text-[9.5px] lg:text-[10px] leading-tight space-y-0.2 font-medium whitespace-nowrap">
-              <p className={isDark ? "text-gray-650 font-semibold" : "text-gray-200 font-semibold"}>
-                6, Morrison, Oregun, Ikeja, Lagos
-              </p>
-              <p className={isDark ? "text-slate-800 font-semibold" : "text-amber-400 font-semibold"}>
-                Phone: 07064519576 | Email: teemosolarnigeria@gmail.com
+            <div className="flex flex-col mt-0.5 sm:mt-1 font-mono text-[7px] sm:text-[8px] md:text-[9px] lg:text-[10px] uppercase leading-tight font-bold tracking-widest">
+              <p className={isDark ? "text-emerald-700/80" : "text-[#fbbf24] animate-pulse"}>
+                Powering a Brighter Tomorrow
               </p>
             </div>
           )}
